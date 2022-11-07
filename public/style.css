@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=MuseoModerno:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Montserrat:ital@0;1&family=MuseoModerno:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+html {
+	scroll-behavior: smooth;
+    
+}
+
+@font-face {
+    font-family: gameFont;
+    src: url(pdark.ttf);
+    
+}
+
+#gameName{
+    font-family: gameFont;
+    font-size: 20px;
+}
+
+#gametitle {
+    font-family: gameFont;
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+.btn-nav{
+    color: #7b6011;
+}
+
+.first-section{
+    margin-top:80px;
+    padding-bottom: 50px;
+}
+
+.big {
+    font-family: 'MuseoModerno', cursive;
+    font-size: 40px;
+}
+
+.small{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
+.dp{
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+
+/*-------------------------TOOLS-------------------------*/
+.tools{
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.tools span{
+    font-size: 30px;
+    font-family: 'Noto Sans HK', sans-serif;
+}
+
+.tools p{
+    font-size: 16px;
+    font-family: 'Noto Sans HK', sans-serif;
+}
+
+.front{
+    border: 2px solid #c5cad1;
+    padding: 0px 70px 30px 70px;
+    margin-bottom: 70px;
+    border-radius: 30px;
+    box-shadow: 2px 4px 4px #bebebe;
+}
+
+.tools-icon i{
+    font-size: 100px;
+}

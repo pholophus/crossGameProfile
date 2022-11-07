@@ -1,0 +1,26 @@
+{
+  "name": "game-profile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "ethers": "^5.7.2",
+    "express": "^4.18.2",
+    "socket.io": "^4.1.2",
+    "socket.io-client": "^4.5.3",
+    "web3": "^1.8.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pholophus/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pholophus/portfolio/issues"
+  },
+  "homepage": "https://github.com/pholophus/portfolio#readme"
+}
